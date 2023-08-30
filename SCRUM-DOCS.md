@@ -13,7 +13,7 @@ Tech used: Kotlin, DLF and Image Restoration
 
 An Image-Upscaling App deployed on the playstore. I Co-Developed this, working on the MNN Deep-Learning Framework and it's integration with the app for the usage of GPU and Training the Image Upscaling model. I also worked on the partial integration of Real-ESRGAN, which is an algorithm used for Image Upscaling. 
 
-- [Project-Zephyrus](https://github.com/Project-Zephyrus-CAF/device_oneplus_opkona) (Co-Developed with HELLBOY017, TIET)
+- [Project-Zephyrus](https://zephyrus20822.nicepage.io/) (Co-Developed with HELLBOY017, TIET)
 
 Tech used: Assembly, Shell, C++ and C
 
