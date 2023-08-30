@@ -7,13 +7,13 @@ This is the documentation of the work I have done in the past few months. The SC
 
 
 ## Projects (Worked on/Currently Working on)
-- [SuperImage](https://play.google.com/store/apps/details?id=com.zhenxiang.superimage&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1) (Co-Developed with Zhenxiang Chen, UCLA) 
+- [SuperImage](https://play.google.com/store/apps/details?id=com.zhenxiang.superimage&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1) (Co-Developed with Zhenxiang Chen, UCLA) **August 1st Week**
 
 Tech used: Kotlin, DLF and Image Restoration
 
 An Image-Upscaling App deployed on the playstore. I Co-Developed this, working on the MNN Deep-Learning Framework and it's integration with the app for the usage of GPU and Training the Image Upscaling model. I also worked on the partial integration of Real-ESRGAN, which is an algorithm used for Image Upscaling. 
 
-- [Project-Zephyrus](https://zephyrus20822.nicepage.io/) (Co-Developed with HELLBOY017, TIET)
+- [Project-Zephyrus](https://zephyrus20822.nicepage.io/) (Co-Developed with HELLBOY017, TIET) **August 1st and 2nd Week**
 
 Tech used: Assembly, Shell, C++ and C
 
@@ -26,6 +26,6 @@ A revamp of the classic; Minesweeper, but using Quantum Q-bits. It's integration
 
 ## Internship
 
-- Currently Working at: Google (Remote)
+- Currently Working at: Google (Remote) **Full August Month**
 
 I work at Google Bard, remotely, working with the PaLm Large Language model and teaching the model the concept of 'chain-of-thought prompting'. I work on integration the dataset with the model, to ensure that variations of the same question, are answered with legitimacy and properly.
