@@ -1,0 +1,46 @@
+@echo off
+CD D:\VSCode-Projects\AutoCommiter\autocommiter\react-test
+
+color A
+git checkout main
+SetLocal EnableDelayedExpansion
+
+    ::Unique verID
+    set "A=!Date!"
+    set "T=!time!"
+    set "ver=!A:~3,2!!A:~0,2!!T:~1,1!!T:~3,2!!T:~6,2!!T:~9,2!"
+
+    @REM ::::::::::::::::::::::::FILE DELETION AND COMMIT:::::::::::::::::::::::::::::::::::
+
+    for /D %%f in (src/*.*) do (
+        set folder=%%f
+        for %%f in (src/!folder!/*.*) do del src\!folder!\%%f
+        rd src\!folder!
+    )
+
+ 
+    ::Commit Message
+    set _list[0]=Commit committed
+    set _list[1]=Damn. Fixed.
+    set _list[2]=Fixed.
+    set _list[3]=Get that shit outta my master.
+    set _list[4]=This is not a commit
+    set _list[5]=Added new feature
+    set _list[6]=Changes Made
+
+    set /A num=!RANDOM! *7 /32768
+    call echo %%_list[!num!]%% verID:!ver! >> "D:\VSCode-Projects\AutoCommiter\autocommiter\react-test\msg.txt"
+    FOR /F "tokens=* delims=" %%j in (D:\VSCode-Projects\AutoCommiter\autocommiter\react-test\msg.txt) DO set commitMsg= %%j
+
+    ::GIT CMDS
+    git add .
+    git commit -m "!commitMsg!"
+    git push   
+    @REM timeout /t 1 /nobreak
+
+
+
+
+
+
+
